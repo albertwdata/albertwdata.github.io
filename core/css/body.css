@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: default;
+}
+
+
+body {
+    /* size */
+    width: 100vw;
+    height: 100vh;
+
+    /* layout for nav-panel and main-panel */
+    display: grid;
+
+    grid-template-columns: 12rem 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 0rem;
+
+    justify-content: center;
+    align-content: center;
+
+    overflow: hidden;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1 rem;
+    padding-top: 1.2rem;
+}
+
+p {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
