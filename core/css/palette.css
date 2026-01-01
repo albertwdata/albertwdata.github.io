@@ -1,0 +1,68 @@
+* {
+    color: hsl(240, 40%, 80%);
+}
+
+
+body {
+    /* background */
+    background-color: hsl(100, 40%, 80%);
+    background-size: 2rem 2rem;
+    background-image:
+        linear-gradient(to right, grey 1px, transparent 1px),
+        linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+
+#nav_panel {
+    /* background */
+    background-color: hsla(240, 40%, 20%, 0.9);
+    box-shadow: 0rem 0rem 0.5rem hsl(240, 40%, 20%);
+}
+
+
+#nav_list {
+    /* background */
+    background-color: transparent;
+}
+
+
+.nav_btn_unselected {
+    /* background */
+    background: none;
+
+    /* foreground */
+    filter: grayscale(100%);
+}
+
+
+.nav_btn:hover {
+    /* background */
+    border-radius: 50%;
+    background-color: hsl(240, 40%, 60%);
+
+    /* foreground */
+    filter: none;
+}
+
+
+.nav_btn_selected {
+    /* background */
+    border-radius: 50%;
+    background-color: hsl(240, 40%, 80%);
+
+    /* foreground */
+    filter: none;
+}
+
+
+.main_panel {
+    /* background */
+    background-color: hsla(240, 40%, 40%, 0.9);
+    box-shadow: 0rem 0rem 0.5rem hsl(240, 40%, 40%);
+}
+
+
+.main_content {
+    /* background */
+    background-color: transparent;
+}

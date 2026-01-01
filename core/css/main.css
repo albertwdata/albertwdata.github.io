@@ -1,0 +1,48 @@
+.main_panel {
+    /* location */
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    /* size */
+    justify-self: stretch;
+    align-self: stretch;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+
+    /* layout for main-content */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    justify-content: center;
+    align-content: center;
+
+    overflow: hidden;
+}
+
+
+.main_content {
+    /* location */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    /* size */
+    width: 1fr;
+    height: 1fr;
+
+    /* layout for main content */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    row-gap: 1rem;
+
+    justify-content: center;
+    align-content: start;
+
+    overflow-y: auto;
+    scrollbar-width: none;
+}
