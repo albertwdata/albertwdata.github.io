@@ -1,6 +1,8 @@
 const nav_btn_id_to_html_path = {
     nav_btn_home: "core/home.html",
-    nav_btn_about: "core/about.html"
+    nav_btn_about: "core/about.html",
+    nav_btn_tools: "core/tools.html",
+    nav_btn_work: "core/work.html"
 };
 
 
