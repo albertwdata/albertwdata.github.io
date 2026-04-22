@@ -37,3 +37,18 @@ p {
     font-size: 2rem;
     padding-top: 1rem;
 }
+
+
+@media (max-width: 600px) {
+    body {
+        width: 100svw;
+        height: 100svh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6rem 1fr;
+    }
+
+    p {
+        font-size: 2rem;
+        padding-top: 0.5rem;
+    }
+}
